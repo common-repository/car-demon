@@ -1,0 +1,176 @@
+/* CSS Document */
+ul.tabs {
+	margin:0px; padding:0px;  
+}  
+ul.tabs li {  
+	list-style:none;  
+	display:inline;  
+}
+ul.tabs li a {  
+	background-color:#464c54;  
+	color:#ffebb5;  
+	padding:4px 7px 8px 7px;  
+	text-decoration:none;  
+	font-size:9px;  
+	font-family:Verdana, Arial, Helvetica, sans-serif;  
+	font-weight:bold;  
+	text-transform:uppercase;  
+	border:1px solid #464c54;
+	margin-left: 3px;
+}  
+ul.tabs li a:hover {  
+	background-color:#2f343a;  
+	border-color:#2f343a;  
+}  
+ul.tabs li a.active {
+	background-color:#ffffff;  
+	color:#282e32;  
+	border:1px solid #464c54;  
+	border-bottom: 1px solid #ffffff;  
+}
+.car_features_content {  
+	background-color:#ffffff;  
+	padding:10px;  
+	border:1px solid #464c54;
+	min-height: 150px;
+}  
+#content_2, #content_3, #content_4, #content_5, #content_6 { display:none; }
+ul.tabs {  
+	margin:0px; padding:0px;  
+	margin-top:5px;  
+	margin-bottom:4px;  
+}
+.car_text {
+	width: 200px;
+}
+.btn {
+	cursor:pointer;
+}
+.decode_table {
+	font-size:12px;
+	width:100%;
+	table-layout: fixed;
+}
+.decode_table_header {
+	color:Black;
+	background-color:#CCCCCC;
+}
+.decode_table_even {
+	color:Black;
+	background-color:white;
+}
+.decode_table_odd {
+	color:Black;
+	background-color:#EEEEEE;
+}
+.decode_table_label {
+	/*white-space:nowrap;*/
+	width:320px;
+	word-wrap: break-word;
+}
+.decode_disclaimer {
+	max-width:580px;font-size:8px;
+}
+.decode_loading {
+	font-size:10px; font-weight:bold;
+}
+.custom_ribbon_div {
+	display:block;
+}
+.custom_ribbon_div_hide {
+	display:none;
+}
+/*
+Admin Styles
+*/
+.car_photo_admin_box {
+	background-color: inherit;
+	border: 1px solid #333;
+	float: left;
+	margin: 2px;
+	padding: 5px;
+}
+.car_photo_admin_box:hover {
+	background-color: #FCC;
+}
+.cd-clear {
+	clear: both;
+}
+.car_photo_remove {
+	cursor: pointer;
+	color: #F00;
+	font-weight: 700;
+	margin-bottom: 6px;
+	margin-right: 10px;
+	margin-top: 0px;
+	text-align: right;
+}
+.cd_reverse_attachments_btn {
+	background-color: #eee;
+	border: 2px solid #ddd;
+	cursor: pointer;
+	float: right;
+	margin-right: 20px;
+	padding: 6px;
+}
+.cd_reverse_attachments_btn:hover {
+	background-color: #ddd;
+	border: 2px solid #ccc;
+}
+.cd_image_links_list_wrap {
+	display: none;
+	float: left;
+	margin-bottom: 10px;
+	width: 100%;
+}
+.cd_image_links_list {
+	height: 100px;
+	width: 100%;
+}
+.cd_edit_image_links {
+	cursor: pointer;
+	display: block;
+	float: left;
+	font-size: 12px;
+	font-weight: 700;
+	margin-bottom: 10px;
+	max-width: 200px;
+}
+.cd_edit_image_links:hover {
+	color: #0b0;
+}
+.cd_close_image_links {
+	float: right;
+}
+.cd_update_image_links_btn {
+	float: left;
+}
+#remove-post-thumbnail-btn {
+	cursor: pointer;
+}
+#remove-post-thumbnail-btn:hover {
+	color: #0b0;
+}
+.cd_main_image_wrapper {
+	float: left;
+	margin-bottom: 14px;
+	max-width: 356px;
+	width: 100%;
+}
+.cd_main_image_wrapper h4 {
+	margin-top: 0px;
+}
+.cd_main_image {
+	border: 2px dashed #ccc;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 300px;
+	padding: 10px;
+}
+.cd_main_image img {
+	cursor: pointer;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 260px;
+}
